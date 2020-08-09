@@ -3,7 +3,7 @@ document.querySelector("#add-time")
 
 function cloneField() {
   const newFieldContainer = document.querySelector('.schedule-item').cloneNode(true)
-  console.log(newFieldContainer);
+
   const fields = newFieldContainer.querySelectorAll('input')
 
   fields.forEach(function(field) {
